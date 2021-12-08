@@ -1,0 +1,42 @@
+#login-box {
+    background-color: #9CFFFA;
+    width: 320px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+}
+
+.login-button {
+    text-align: left;
+    font-size: large;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+}
+
+/* div {
+    padding: 5px;
+} */
+
+h3 {
+    text-align: center;
+}
+
+
+.username {
+    padding: 5px;
+
+}
+
+.password {
+    padding: 5px;
+
+}
+
+.g-recaptcha {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
