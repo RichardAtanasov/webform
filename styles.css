@@ -1,42 +1,77 @@
+body {
+    margin: 0;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(203,226,195,1) 0%, rgba(17,204,242,1) 80%);
+}
+
 #login-box {
-    background-color: #9CFFFA;
+    background-color: #ACF39D;
     width: 320px;
-    border-color: black;
-    border-style: solid;
+    height: 400px;
+    /* padding: 10px 0; */
+    border: 1px solid black;
     text-align: center;
-    margin: auto;
+    margin: 25% auto;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(164deg, rgba(2,0,36,1) 0%, rgba(126,213,97,1) 0%, rgba(17,204,242,1) 80%);
 }
 
-.login-button {
-    text-align: left;
-    font-size: large;
-    padding-left: 2px;
-    padding-top: 2px;
-    padding-right: 2px;
-    padding-bottom: 10px;
+
+button{
+    width: 150px;
+    height:45px;
+    background: linear-gradient(to left top, #ACF39D 50%, #6eac62 50%);
+    border-style: none;
+    color:rgb(0, 0, 0);
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
 
-/* div {
-    padding: 5px;
-} */
+button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+button:hover span{
+    animation-play-state: paused;
+}
+
 
 h3 {
     text-align: center;
 }
 
-
-.username {
-    padding: 5px;
-
-}
-
-.password {
-    padding: 5px;
+.input-text {
+    padding: 5px 2px;
 
 }
 
 .g-recaptcha {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+input {
+    height: auto;
+
+}
+
+label {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+sup {
+    color: rgb(216, 42, 42);
 }
 
